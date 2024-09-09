@@ -7,7 +7,6 @@ Dataset
 The Iris dataset which is available in the sklearn library is used.
 
 The following steps were performed:
-
 1. Loading and Preprocessing
 Loaded the Iris dataset from sklearn.
 Droped the species column, since this is a clustering problem.
