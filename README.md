@@ -1,27 +1,21 @@
-# UNSUPERVISED-MACHINE-LEARNING
+# Clustering Analysis of the Iris Dataset: A Comparative Study of KMeans and Agglomerative Hierarchical Techniques
 
-Objective:
-The objective of this PROJECT is to apply clustering techniques to a real-world dataset.
+**Goal of the project:**
 
-Dataset
+To apply and compare KMeans and Agglomerative Hierarchical clustering algorithms on the Iris dataset, providing insights into the clustering behavior of the data and the effectiveness of each technique.
+
+**Overview:**
+This project focuses on applying clustering techniques to the Iris dataset, a well-known dataset in machine learning, to uncover patterns and groupings within the data. The primary steps involved in the project include:
+
+1. **Data Loading and Preprocessing**: The Iris dataset is loaded using the sklearn library, and the species column is removed to align with the unsupervised nature of clustering.
+
+2. **Clustering Algorithms Implementation**: Two different clustering algorithms are implemented:
+   - **KMeans Clustering**: This section explains the fundamentals of KMeans, including its centroid-based approach. The suitability of KMeans for the Iris dataset is discussed, and the results are visualized to show how the data points are grouped into clusters.
+   - **Agglomerative Hierarchical Clustering**: The project also covers hierarchical clustering, which builds clusters based on the proximity of data points. The rationale for applying this technique to the Iris dataset is presented, along with visualizations of the resulting clusters.
+
+3. **Visualization and Analysis**: For both clustering methods, visualizations are provided to illustrate the clusters formed, enabling an understanding of how well the algorithms perform in identifying natural groupings in the data.
+
+The analysis is compiled in a Jupyter Notebook format, allowing for an interactive exploration of the code, visualizations, and findings. This project not only demonstrates the practical application of clustering techniques but also fosters a deeper understanding of how different algorithms can be utilized to analyze real-world datasets.
+
+**Dataset**
 The Iris dataset which is available in the sklearn library is used.
-
-The following steps were performed:
-1. Loading and Preprocessing
-Loaded the Iris dataset from sklearn.
-Droped the species column, since this is a clustering problem.
-
-2.Clustering Algorithm Implementation
-Implemented the following two clustering algorithms:
-
-A) KMeans Clustering
-Provided a brief description of how KMeans clustering works.
-Explained why KMeans clustering might be suitable for the Iris dataset.
-Applied KMeans clustering to the preprocessed Iris dataset and visualized the clusters.
-
-B) Agglomerative Hierarchical Clustering
-Provided a brief description of how Hierarchical clustering works.
-Explained why Hierarchical clustering might be suitable for the Iris dataset.
-Applied Hierarchical clustering to the preprocessed Iris dataset and visualized the clusters.
-
-The code is provided in Jupyter Notebook format.
